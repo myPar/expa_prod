@@ -97,8 +97,8 @@
 
 клонируем репозиторий:
 ```bash
-git clone https://github.com/myPar/OpenAI_proxy.git
-cd open_ai_proxy_r1
+git clone https://github.com/myPar/expa_prod
+cd expa_prod
 ```
 
 Для работы лучше создать отдельное окружение с **python 3.12**. Удобнее это сделать с помощью `conda`:
