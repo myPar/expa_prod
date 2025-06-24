@@ -139,7 +139,7 @@ python test_requests.py
 | `return_think_data`| `bool`                                              | Если `True`, возвращаются промежуточные размышления модели в поле _reasoning_content_.              |
 | `few_shot_mode`    | `"DROP"` \| `"PREPROCESS"` \| `"NO_PREPROCESS"`    | Режим few-shot: убирать промежуточные элементы диалога - оставляет только последний user-prompt сконкатенированный с system-prompt; предварительно обрабатывать - конвертирование диалога в один user-prompt; никак не обрабатывать. По умолчанию: "NO_PREPROCESS" |
 
-#### POST `/v1/completions`
+### POST `/v1/completions`
 
 Этот эндпойнт предоставляет доступ к генерации текста по аналогии с OpenAI Text Completion API (⚠️ является устаревшим).
 
